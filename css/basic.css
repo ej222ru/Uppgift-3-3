@@ -8,11 +8,13 @@ body {
 
 #topbar{
     border: 1px solid #F3E789;  
-    background-color: #F3E789;    
+    background-color: red;    
     padding: 5px;
+    height: 230px;
     text-align: right;    
 /*    background-size: cover; */
     opacity: 0.5;
+        background-image: url(pics/coffey.jpg); 
 }
 
 #container{
@@ -28,8 +30,8 @@ body {
 
 #content{
     border: 1px solid #FFF6B1;
+    clear: left;
     overflow: auto;    
-    margin-left: 180px;
 }
 
 #menu{
