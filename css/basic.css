@@ -1,1 +1,92 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+
+@import url("http://meyerweb.com/eric/tools/css/reset/reset.css");
+
+body { 
+    background-color: gray;
+}
+
+#topbar{
+    border: 1px solid #F3E789;  
+    background-color: #F3E789;    
+    padding: 5px;
+    text-align: right;    
+/*    background-size: cover; */
+    opacity: 0.5;
+}
+
+#container{
+    max-width: 640px;
+    overflow: auto;
+    margin: 0 auto;
+    background-color: #FFF6B1;  
+    border-bottom : 30px solid white;
+    border-left: 20px  solid white;
+    border-right: 20px  solid white;
+    border-top: 10px  solid white;
+}
+
+#content{
+    border: 1px solid #FFF6B1;
+    overflow: auto;    
+    margin-left: 180px;
+}
+
+#menu{
+    width: 640px;
+    height:30px;
+    list-style:none;
+}
+
+#menu ul{ 
+    border-bottom: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li{ 
+    max-width: 120px;
+    border: 1px solid #FFF6B1;  
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+#menu li a{ 
+    display: block;
+    background-color: #F3E789;
+    color: #3D402A;
+    padding: 18px;
+}
+
+#menu li a:hover{ 
+    background-color: #3D402A;
+    color:#F3E789;
+
+}
+
+#menu a {
+    
+    display:none;
+}
+
+.right{
+        float: right;
+}
+
+#maincontent{
+    width: 380px;
+    border: 1px solid red;      
+    float: left;
+
+}
+#maincontent img{
+    border: 1px solid blue;      
+    float: left;
+
+}
+#subcontent{
+    border: 1px solid red;      
+
+}
