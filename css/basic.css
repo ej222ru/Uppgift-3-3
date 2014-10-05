@@ -11,9 +11,9 @@ body {
     height: 200px;
     margin-top: 20px;
     text-align: right;
-
+    font-family: italic;
     
-    color: #EDE8CD;
+    color:  #45341c;/* #EDE8CD; */
 /*    background-size: cover; */
 
     background-color: #45341c;
@@ -71,6 +71,7 @@ body {
 }
 #subcontent h2{
             font-size: 1.2em;
+            font-weight: normal;        
 }
 #subcontent li a{
     margin-left: -40px;
@@ -78,7 +79,7 @@ body {
     text-align: left;
         font-size: 1.2em;
         color: #765C44;
-        font-weight: bold;
+
 }
 #subcontent ul{
     text-align: left;
@@ -87,7 +88,7 @@ body {
 #menu{
      
     width: 640px;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 #menu ul{ 
@@ -99,7 +100,7 @@ body {
 }
 
 #menu li{ 
-    max-width: 120px;
+
     list-style-type: none;
     margin: 1px;
 
@@ -113,11 +114,19 @@ body {
 }
 
 #menu li a{ 
+    max-width: 140px;    
     display: block;
     background-color: #765C44;
     color: #EDE8CD;
-    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;    
+    padding-bottom: 10px;  
+    padding-top: 10px;    
     position: bottom;    
+
+}
+#menu li a:first-letter {
+    text-transform: uppercase;
 }
 
 
@@ -133,3 +142,8 @@ body {
     display:none;
 }
 
+/*  Typo */ 
+
+#container {
+      font-family: Verdana, "Times New Roman";
+}
