@@ -9,14 +9,16 @@ body {
 #topbar{
 
     height: 200px;
-    margin-top: 20px;
+/*    margin-top: 20px; */
     text-align: right;
     font-family: italic;
     
-    color:  #45341c;/* #EDE8CD; */
+    color:  #EDE8CD;
 /*    background-size: cover; */
 
     background-color: #45341c;
+    background-position-y: 20px;
+    background-repeat:no-repeat;
     background-image: url(pics/coffey.jpg); 
 }
 
@@ -77,14 +79,11 @@ body {
     margin-left: -40px;
     display: block;
     text-align: left;
-        font-size: 1.2em;
-        color: #765C44;
+    font-size: 0.8em;
+    color: #765C44;
 
 }
-#subcontent ul{
-    text-align: left;
 
-}
 #menu{
      
     width: 640px;
@@ -109,9 +108,7 @@ body {
 
 }
 
-.active{ 
-    background-color: red;  /* ???? */
-}
+
 
 #menu li a{ 
     max-width: 140px;    
@@ -124,6 +121,9 @@ body {
     padding-top: 10px;    
     position: bottom;    
 
+}
+#menu .active a{ 
+    background-color: red; 
 }
 #menu li a:first-letter {
     text-transform: uppercase;
@@ -145,5 +145,9 @@ body {
 /*  Typo */ 
 
 #container {
-      font-family: Verdana, "Times New Roman";
+      font-family: Verdana, "Times New Roman", serif;
+}
+
+#bottomcontent {
+    clear:both;
 }
