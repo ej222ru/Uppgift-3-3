@@ -7,7 +7,7 @@ body {
 }
 
 #topbar{
-
+    width: 640px;
     height: 200px;
 /*    margin-top: 20px; */
     text-align: right;
@@ -15,11 +15,11 @@ body {
     
     color:  #EDE8CD;
 /*    background-size: cover; */
-
     background-color: #45341c;
     background-position-y: 20px;
     background-repeat:no-repeat;
     background-image: url(pics/coffey.jpg); 
+    background-size: 640px;
 }
 
 #container{
