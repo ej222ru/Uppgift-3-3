@@ -123,7 +123,8 @@ body {
 
 }
 #menu .active a{ 
-    background-color: red; 
+    background-color: #EDE8CD; 
+    color:#C4AB8E;
 }
 #menu li a:first-letter {
     text-transform: uppercase;
